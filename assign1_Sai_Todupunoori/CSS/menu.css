@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(139,0,0);
+    height:10px;
+}
+
+.list{
+    color: white;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+.white{
+    color: white;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+u{
+    color: white;
+}

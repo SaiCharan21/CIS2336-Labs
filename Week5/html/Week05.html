@@ -1,0 +1,111 @@
+<!--Week 05 Code-->
+<html>
+  <title>Week 05 Code 01</title>
+
+  <head>
+    <link rel="stylesheet" href="../css/Week05.css" />
+  </head>
+
+  <body>
+    <h1>Week 05 Code 01: Colspans and Rowspans</h1>
+    <table id="t01" border="1">
+      <tr>
+        <th colspan="2">65</th>
+        <th colspan="2">40</th>
+        <th colspan="2">20</th>
+      </tr>
+      <tr>
+        <th>Men</th>
+        <th>Women</th>
+        <th>Men</th>
+        <th>Women</th>
+        <th>Men</th>
+        <th>Women</th>
+      </tr>
+      <tr>
+        <td>65</td>
+        <td>40</td>
+        <td>20</td>
+        <td>20</td>
+        <td>20</td>
+        <td>20</td>
+      </tr>
+    </table>
+    <br />
+    <table id="t02" border="1">
+      <tr id="color">
+        <th rowspan="2">Favorites</th>
+        <th>Color</th>
+        <td>blue</td>
+        <td>red</td>
+      </tr>
+      <tr id="color">
+        <th>Flavor</th>
+        <td>Banana</td>
+        <td>Chocolate</td>
+      </tr>
+      <tr id="color1">
+        <th rowspan="2">Least Favorites</th>
+        <th>Color</th>
+        <td>Yellow</td>
+        <td>Pink</td>
+      </tr>
+      <tr id="color1">
+        <th>Flavor</th>
+        <td>Mint</td>
+        <td>Walnut</td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+    <h1>Week 05 Code 02: Forms</h1>
+    <form id="f01">
+      <div class="personal">
+        Customer Name:
+        <input type="text" id="cname" />
+        <br />
+        Customer Email: <input type="text" id="cemail" /> <br />
+        Customer Phone:<input type="text" id="cphone" />
+      </div>
+    </form>
+    <br />
+    <br />
+    <h1>Week 05 Code 03: Fieldset</h1>
+    <form id="f02">
+      <div class="personal">
+        <fieldset id="c1">
+          <legend>Personal Info</legend>
+          Customer Name:<input type="text" id="cname" /> Customer Address:
+          <input type="text" id="caddress" /> Customer Phone:
+          <input type="text" id="cphone" />
+        </fieldset>
+        <br />
+        <fieldset id="c2">
+          <legend>Which Vehicle do you require?</legend>
+          <input type="radio" id="Car" name="vehicle" value="car" /> Car
+          <input type="radio" id="SUV" name="vehicle" value="suv" /> SUV
+          <input type="radio" id="Truck" name="vehicle" value="truck" /> Truck
+        </fieldset>
+        <br />
+        <fieldset id="c3">
+          <legend>Fall Courses</legend>
+          <input type="checkbox" id="CIS 2336" name="CIS 2336" /> Car
+          <input type="checkbox" id="CIS 2334" name="CIS 2334" /> SUV
+          <input type="checkbox" id="CIS 3365" name="CIS 3365" /> Truck
+        </fieldset id="c1">
+        <h1>Please select Date of submission:</h1>
+        <input type="date" name="pickdate" />
+        <br />
+        <h1>Location:</h1>
+        <select id="loc">
+          <option value="">Select a City</option>
+          <option value="Fulshear">Fulshear</option>
+          <option value="Houston">Dallas</option>
+          <option value="Fulshear">Austin</option>
+          <option value="Houston">Houston</option>
+        </select>
+      </div>
+    </form>
+  </body>
+</html>

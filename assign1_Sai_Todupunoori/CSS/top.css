@@ -1,0 +1,25 @@
+    body {
+        /* background-color: rgb(183, 83, 83); */
+        background-color: rgb(178, 34, 34);
+        height: 10px;
+    }
+    
+    #titletext {
+        color: white;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    #name {
+        /* padding:20px */
+        color: white;
+        text-align: right;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    #image {
+        float: left;
+        /* position: absolute; */
+        margin-bottom: 300px;
+        align-items: baseline;
+    }

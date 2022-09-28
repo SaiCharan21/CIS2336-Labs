@@ -1,0 +1,44 @@
+.first {
+    background-color: powderblue;
+}
+
+#h02 {
+    color: blue;
+}
+
+#d01 {
+    background-color: red;
+}
+
+#d02 {
+    background-color: yellow;
+}
+
+#t01 {
+    background-color: yellow;
+}
+
+#color {
+    background-color: green;
+}
+
+#color1 {
+    background-color: red;
+}
+
+#c1 {
+    background-color: red;
+}
+
+#c2 {
+    background-color: yellow;
+}
+
+#c3 {
+    background-color: blue;
+}
+
+input {
+    width: 100%;
+    padding: 12px 10px;
+}

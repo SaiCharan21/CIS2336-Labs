@@ -1,0 +1,66 @@
+<html>
+  <title>Week 07</title>
+  <head>
+    <style>
+      body {
+        background-color: powderblue;
+      }
+
+      input[type="text"] {
+        width: 50%;
+        position: relative;
+        left: 50px;
+        top: 2px;
+        font-size: 16px;
+        background-color: gray;
+        padding: 12px 12px;
+      }
+
+      #mm {
+        background-image: url("../Images/MicrosoftTeams-image\ \(3\).png");
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+      }
+
+      #add {
+        background-image: url("../Images/MicrosoftTeams-image\ \(5\).png");
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+      }
+
+      #subtract {
+        background-image: url("../Images/MicrosoftTeams-image\ \(2\).png");
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+      }
+
+      #divide {
+        background-image: url("../Images/MicrosoftTeams-image\ \(1\).png");
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Week07: Basic Calculator Functions</h1>
+    1st Number: <input type="text" id="fnum" />
+    <br />
+    <br />
+    2nd Number: <input type="text" id="snum" />
+    <br />
+    <br />
+    <div id="form1">
+      <input type="button" onclick="mul()" id="mm" />
+      <input type="button" onclick="addi()" id="add" />
+      <input type="button" onclick="sub()" id="subtract" />
+      <input type="button" onclick="divi()" id="divide" />
+    </div>
+    <p>The Result is:</p>
+    <span id="result"></span>
+  </body>
+  <script type="text/javascript" src="../JS/week07.js"></script>
+</html>

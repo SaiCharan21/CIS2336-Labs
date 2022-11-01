@@ -1,0 +1,50 @@
+.left {
+  float: left;
+  padding-left: 50px;
+  color: black;
+}
+
+body {
+  background-image: url("https://images5.alphacoders.com/456/456536.jpg");
+  margin: 30;
+}
+.content {
+  background: grey;
+  padding: 50px;
+  border-radius: 3px;
+  height: 808px;
+  padding-right: 200px;
+}
+
+h1 {
+  color: silver;
+  text-align: center;
+}
+
+fieldset {
+  width: 400px;
+  padding-left: 15px;
+  float: center;
+}
+
+img {
+  /* float: center; */
+  padding-left: 50px;
+  width: 435px;
+  height: 300px;
+}
+
+.bttn {
+  background-color: white;
+  padding: 5px;
+}
+
+.terms {
+  background-color: white;
+  padding: 5px;
+}
+
+.queries {
+  padding-right: 3px;
+  float: right;
+}

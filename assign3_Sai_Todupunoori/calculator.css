@@ -1,0 +1,26 @@
+.calc {
+    padding: 10px;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: black;
+    border-width: 200px;
+}
+
+.res-box {
+    background-color: #dcdbe1;
+    color: black;
+    width: 100%;
+    height: 65%;
+    font-size: 25px;
+}
+
+input[type=button] {
+    background-color: blue;
+    width: 100%;
+    height: 70%;
+    font-size: 25px;
+    color: white;
+    border-width: 4px;
+    border-color: white;
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+        #log{
+            text-align: center;
+            padding-top: 12px;
+        }
+        h1{
+            text-align: center;
+            color: blue;
+            padding-top: 12px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Login</h1>
+    <div id="log">
+        <form id="f1" action="#">
+            <img src="../Images/person.png" height="200" width="200">
+            <br>
+            <br>
+            <label> Username: </label>
+            <input type="text" placeholder="Enter Username" id="name" />
+            <br> <br>
+            <label> Password:  </label>
+            <input type="password" placeholder="Enter Password" id="pwd"/>
+            <br><br>
+            <button type="submit" onclick="req()">Login</button>
+            <br><br>
+            <button value="reset" type="reset" onclick="res()">Reset</button>
+            <br>
+            <label>Remember Me</label>
+            <input type="checkbox" checked="checked" name="remember">
+        </form>
+    </div>
+</body>
+<script>
+    function req(){
+        const user = document.forms["f1"]["name"].value
+        const password = document.forms["f1"]["pwd"].value
+
+        if (user ==="Sai" && password==="Tod"){
+            window.open("https://www.google.com");
+        }
+        else {
+            alert("Fail")
+        }
+    }
+
+
+</script>
+</html>
